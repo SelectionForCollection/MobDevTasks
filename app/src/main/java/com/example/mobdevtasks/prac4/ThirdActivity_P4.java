@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.example.mobdevtasks.R;
 
-public class ThirdActivity extends AppCompatActivity {
+public class ThirdActivity_P4 extends AppCompatActivity {
 
     EditText S, H, F, s, h, f;
 
@@ -35,7 +35,7 @@ public class ThirdActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (S.getText().toString().equals("") || H.getText().toString().equals("") || F.getText().toString().equals("")
                         || s.getText().toString().equals("") || h.getText().toString().equals("") || f.getText().toString().equals("")) {
-                    Toast.makeText(ThirdActivity.this, "Введите данные", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ThirdActivity_P4.this, "Введите данные", Toast.LENGTH_SHORT).show();
                 } else {
                     setResult(1, new Intent().putExtra("merge", "От " + S.getText().toString()
                             + ", " + H.getText().toString() + ", " + F.getText().toString()

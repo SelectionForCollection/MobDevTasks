@@ -11,7 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.example.mobdevtasks.R;
 
-public class SecondActivity extends AppCompatActivity {
+public class SecondActivity_P4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class SecondActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivityForResult(new Intent(SecondActivity.this, ThirdActivity.class), 1);
+                startActivityForResult(new Intent(SecondActivity_P4.this, ThirdActivity_P4.class), 1);
             }
         });
 
@@ -50,7 +50,7 @@ public class SecondActivity extends AppCompatActivity {
         btn_call.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(SecondActivity.this, "Такси вызвано!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SecondActivity_P4.this, "Такси вызвано!", Toast.LENGTH_SHORT).show();
             }
         });
     }

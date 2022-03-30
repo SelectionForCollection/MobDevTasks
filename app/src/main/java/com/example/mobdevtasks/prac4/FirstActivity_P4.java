@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.mobdevtasks.R;
 
-public class MainActivity_P4 extends AppCompatActivity {
+public class FirstActivity_P4 extends AppCompatActivity {
 
     private SharedPreferences pref;
 
@@ -41,7 +41,7 @@ public class MainActivity_P4 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(!(phone.getText().toString().equals("") || name.getText().toString().equals("") || surname.getText().toString().equals(""))) {
-                    Intent intent = new Intent(MainActivity_P4.this, SecondActivity.class);
+                    Intent intent = new Intent(FirstActivity_P4.this, SecondActivity_P4.class);
                     intent.putExtra("Phone", phone.getText().toString());
                     intent.putExtra("fi", name.getText().toString() + " " + surname.getText().toString());
 

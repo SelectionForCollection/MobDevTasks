@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.mobdevtasks.R;
 
-public class MainActivity_P5 extends AppCompatActivity {
+public class FirstActivity_P5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_p5);
+        setContentView(R.layout.prac5_first_page);
     }
 }

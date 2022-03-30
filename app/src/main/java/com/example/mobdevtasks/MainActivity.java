@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.mobdevtasks.prac4.MainActivity_P4;
+import com.example.mobdevtasks.prac4.FirstActivity_P4;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, MainActivity_P4.class));
+                startActivity(new Intent(MainActivity.this, FirstActivity_P4.class));
             }
         });
     }

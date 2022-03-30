@@ -10,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobDevTasks">
         <activity
-            android:name=".prac5.MainActivity_P5"
+            android:name=".prac5.FirstActivity_P5"
             android:exported="false" />
         <activity
-            android:name=".prac4.ThirdActivity"
+            android:name=".prac4.ThirdActivity_P4"
             android:exported="false" />
-        <activity android:name=".prac4.SecondActivity" />
+        <activity android:name=".prac4.SecondActivity_P4" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -25,7 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".prac4.MainActivity_P4" />
+        <activity android:name=".prac4.FirstActivity_P4" />
     </application>
 
 </manifest>
