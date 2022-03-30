@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".prac4.MainActivity_P4">
+
+    <EditText
+        android:id="@+id/fp_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="@string/phone"
+        android:inputType="number|phone" />
+
+    <EditText
+        android:id="@+id/fp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fp_phone"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="@string/name"
+        android:inputType="textShortMessage" />
+
+    <EditText
+        android:id="@+id/fp_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fp_name"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="@string/surname"
+        android:inputType="textLongMessage" />
+
+    <Button
+        android:id="@+id/registry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_below="@id/fp_surname"
+        android:layout_marginTop="20dp"
+        android:text="@string/registry" />
+
+    <Button
+        android:id="@+id/new_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_below="@id/registry"
+        android:layout_marginTop="20dp"
+        android:text="@string/new_user" />
+
+
+</RelativeLayout>

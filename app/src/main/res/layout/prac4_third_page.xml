@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prac4.ThirdActivity">
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/from"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/street"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:hint="@string/title_street"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/house"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/street"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/title_house"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/flat"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/house"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/title_flat"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/flat"
+        android:layout_marginTop="30sp"
+        android:text="@string/to"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/T_street"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/to"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/title_street"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/T_house"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/T_street"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/title_house"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/T_flat"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/T_house"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/title_flat"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/T_flat"
+        android:layout_marginTop="40dp"
+        android:text="@string/title_ok" />
+</RelativeLayout>

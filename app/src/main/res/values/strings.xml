@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MobDevTasks</string>
+    <string name="prac4">Практика 4</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="registry">Registry</string>
+    <string name="set_path">set path</string>
+    <string name="call_taxi">Call taxi</string>
+    <string name="title_street">Улица</string>
+    <string name="title_house">Дом</string>
+    <string name="title_flat">Квартира</string>
+    <string name="from">От</string>
+    <string name="to">До</string>
+    <string name="title_ok">OK</string>
+    <string name="new_user">Новый пользователь</string>
+</resources>
