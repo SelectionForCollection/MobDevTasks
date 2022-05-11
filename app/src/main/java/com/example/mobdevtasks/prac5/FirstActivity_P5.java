@@ -18,8 +18,6 @@ import java.util.List;
 
 public class FirstActivity_P5 extends AppCompatActivity{
 
-    String[] countries = { "Бразилия", "Аргентина", "Колумбия", "Чили", "Уругвай"};
-
     String[] item_names;
     int[] item_prices;
     String[] item_descriptions;
