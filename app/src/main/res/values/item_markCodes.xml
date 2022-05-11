@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="item_markCodes">
+        <item>89012</item>
+        <item>67421</item>
+        <item>76293</item>
+        <item>89211</item>
+        <item>89321</item>
+        <item>12312</item>
+        <item>31237</item>
+        <item>78234</item>
+        <item>56653</item>
+        <item>64283</item>
+        <item>79234</item>
+        <item>49872</item>
+        <item>93845</item>
+        <item>74538</item>
+        <item>87294</item>
+        <item>12930</item>
+        <item>44545</item>
+        <item>92839</item>
+        <item>45432</item>
+    </integer-array>
+</resources>

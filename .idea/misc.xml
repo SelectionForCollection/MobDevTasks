@@ -4,9 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/element.xml" value="0.3614583333333333" />
+        <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/element1.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/footer.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/footer_fp.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/footer_sp.xml" value="0.3614583333333333" />
+        <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/my_item.xml" value="0.18541666666666667" />
         <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/prac4_first_page.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/prac4_second_page.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/prac4_third_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/prac5_first_page.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/MobDevTasks/app/src/main/res/layout/prac5_second_page.xml" value="0.3625" />
       </map>
     </option>
   </component>

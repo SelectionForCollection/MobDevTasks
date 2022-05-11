@@ -15,4 +15,13 @@
         android:layout_marginStart="20dp"
         android:text="@string/prac4" />
 
+    <Button
+        android:id="@+id/prac5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/prac4"
+        android:text="@string/prac5" />
+
 </RelativeLayout>

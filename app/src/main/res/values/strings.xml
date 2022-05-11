@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MobDevTasks</string>
     <string name="prac4">Практика 4</string>
+    <string name="prac5">Практика 5</string>
     <string name="phone">Phone</string>
     <string name="name">Name</string>
     <string name="surname">Surname</string>
@@ -14,4 +15,6 @@
     <string name="to">До</string>
     <string name="title_ok">OK</string>
     <string name="new_user">Новый пользователь</string>
+    <string name="show_checked_items">Show checked items</string>
+    <string name="checked">Выбрано:</string>
 </resources>

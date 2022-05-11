@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_names">
+        <item>Клавиатура</item>
+        <item>Монитор</item>
+        <item>Мышь компьютерная</item>
+        <item>Мышь живая</item>
+        <item>Мфшь не очень живая</item>
+        <item>Кресло</item>
+        <item>Корпус</item>
+        <item>Водяное охлаждение</item>
+        <item>Воздушное охлаждение</item>
+        <item>Принтер</item>
+        <item>Оперативная память</item>
+        <item>SSD</item>
+        <item>HDD</item>
+        <item>XD</item>
+        <item>CD</item>
+        <item>smth else</item>
+        <item>more smth else</item>
+        <item>Сканер</item>
+        <item>9д принтер</item>
+    </string-array>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_description">
+        <item>Товар 1</item>
+        <item>Товар 2</item>
+        <item>Товар 3</item>
+        <item>Товар 4</item>
+        <item>Товар 5</item>
+        <item>Товар 6</item>
+        <item>Товар 7</item>
+        <item>Товар 8</item>
+        <item>Товар 9</item>
+        <item>Товар 10</item>
+        <item>Товар 11</item>
+        <item>Товар 12</item>
+        <item>Товар 13</item>
+        <item>Товар 14</item>
+        <item>Товар 15</item>
+        <item>Товар 16</item>
+        <item>Товар 17</item>
+        <item>Товар 18</item>
+        <item>Товар 19</item>
+    </string-array>
+</resources>

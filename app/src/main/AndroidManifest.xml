@@ -13,6 +13,9 @@
             android:name=".prac5.FirstActivity_P5"
             android:exported="false" />
         <activity
+            android:name=".prac5.SecondActivity_P5"
+            android:exported="false" />
+        <activity
             android:name=".prac4.ThirdActivity_P4"
             android:exported="false" />
         <activity android:name=".prac4.SecondActivity_P4" />
